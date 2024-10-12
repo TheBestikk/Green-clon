@@ -1,0 +1,26 @@
+body{
+    margin: 0px 120px;
+}
+.header-container{
+    padding: 25px 0px;
+    justify-content: space-between;
+}
+.header-container, .header-list{
+    display: flex;
+}
+.header-logo{
+    margin-bottom: 10px;
+}
+.header-list{
+    list-style: none;
+    gap: 25px;
+    align-items: center;
+}
+.header-item-link{
+    color: #000;
+    text-decoration: none;
+}
+.header-item-span{
+    color: #16fa5b;
+    font-weight: 600;
+}
