@@ -23,7 +23,7 @@ body{
 }
 
 .header-item-span{
-    color: #16fa5b;
+    color: #25C24F;
     font-weight: 600;
 }
 
@@ -43,15 +43,15 @@ body{
     font-size: 29px;
 }
 .help-span-title{
-    color: #16fa5b;
+    color: #25C24F;
 }
 .help-span-text{
-    color: #16fa5b;
+    color: #25C24F;
     font-weight: 600;
 }
 .help-btn{
-    background-color:rgb(24, 208, 24);
-    padding: 15px 10px;
+    background-color:#25C24F;
+    padding: 15px 25px;
     align-items: center;
     color: #fff;
     border: none;
@@ -72,7 +72,7 @@ body{
     font-weight: 600;
 }
 .planet-title-span{
-    color: #16fa5b;
+    color: #25C24F;
 }
 .planet-text-span{
     font-weight: 700;
