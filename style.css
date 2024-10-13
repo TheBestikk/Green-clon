@@ -1,6 +1,7 @@
 body{
     margin: 0px 120px;
 }
+/* header */
 .header-container{
     padding: 25px 0px;
     justify-content: space-between;
@@ -20,7 +21,59 @@ body{
     color: #000;
     text-decoration: none;
 }
+
 .header-item-span{
     color: #16fa5b;
     font-weight: 600;
+}
+
+/* help */
+
+.help-container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.help-title{
+    color: #000;
+    font-weight: 600;
+    font-size: 52px;
+}
+.help-text{
+    font-size: 29px;
+}
+.help-span-title{
+    color: #16fa5b;
+}
+.help-span-text{
+    color: #16fa5b;
+    font-weight: 600;
+}
+.help-btn{
+    background-color:rgb(24, 208, 24);
+    padding: 15px 10px;
+    align-items: center;
+    color: #fff;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+/* Video */
+
+.video-container{
+    padding: 50px 0px;
+}
+.video-video{
+    justify-content: center ;
+}
+
+/* planet */
+.planet-title{
+    font-weight: 600;
+}
+.planet-title-span{
+    color: #16fa5b;
+}
+.planet-text-span{
+    font-weight: 700;
 }
