@@ -1,7 +1,7 @@
-body{
-    margin: 0px 120px;
-}
 /* header */
+.header{
+    padding: 0px 120px;
+}
 .header-container{
     padding: 25px 0px;
     justify-content: space-between;
@@ -28,22 +28,27 @@ body{
 }
 
 /* help */
-
+.help{
+    padding: 0px 120px;
+}
 .help-container{
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 25px;
 }
 .help-title{
     color: #000;
     font-weight: 600;
     font-size: 52px;
-}
-.help-text{
-    font-size: 29px;
+    width: 850px;
 }
 .help-span-title{
     color: #25C24F;
+}
+.help-text{
+    color: #000;
+    font-size: 28px;
+    width: 550px;
 }
 .help-span-text{
     color: #25C24F;
@@ -56,24 +61,92 @@ body{
     color: #fff;
     border: none;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 600;
 }
 /* Video */
 
 .video-container{
-    padding: 50px 0px;
+    padding: 50px 120px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
 .video-video{
-    justify-content: center ;
+    width: 1500px;
+    height: 800px;
 }
 
 /* planet */
-.planet-title{
-    font-weight: 600;
+
+.planet-container{
+    padding: 0px 120px;
+    padding-bottom: 50px;
+    gap: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
-.planet-title-span{
+.planet-title{
+    font-size: 52px;
+    font-weight: 600;
+    color: #000;
+}
+.planet-span-title{
     color: #25C24F;
 }
-.planet-text-span{
-    font-weight: 700;
+.planet-text{
+    font-size: 28px;
+    font-weight: 400;
+    color: #000;
+}
+.planet-span-text{
+    font-weight: 600;
+}
+.planet-list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    column-gap: 15px;
+}
+.planet-list-item-icon{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    margin-top: 15px;
+}
+.planet-list-item-text{
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 30px;
+}
+.planet-img{
+    width: 500px;
+    height: 600px;
+}
+
+/* analytics */
+
+.analytics-container{
+    padding-bottom: 50px;
+    background-color: #F2FBF5;
+    display: flex;
+}
+.analytics-list{
+    list-style: none;
+    margin: 0 auto;
+    gap: 250px;
+    display: flex;
+    align-items: center;
+    padding-top: 120px;
+}
+.analytics-item-text{
+    display: block;
+    color: #000;
+    font-size: 24px;
+}
+.analytics-span-text{
+    color: #25C24F;
+    font-size: 48px;
+    font-weight: 600;
 }
