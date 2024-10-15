@@ -28,13 +28,17 @@
 }
 
 /* help */
-.help{
-    padding: 0px 120px;
+
+.help-img{
+    height: 700px;
+    width: 700px;
 }
 .help-container{
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 25px;
+    padding: 0px 120px;
 }
 .help-title{
     color: #000;
@@ -131,6 +135,7 @@
     padding-bottom: 50px;
     background-color: #F2FBF5;
     display: flex;
+    align-items: center;
 }
 .analytics-list{
     list-style: none;
@@ -140,13 +145,99 @@
     align-items: center;
     padding-top: 120px;
 }
-.analytics-item-text{
-    display: block;
-    color: #000;
-    font-size: 24px;
+.analytics-item{
+    display: flex;
+    gap: 10px;
 }
-.analytics-span-text{
+.analytics-item-text{
+    color: #000;
+    margin-top: 54px;
+    font-size: 18px;
+    font-weight: 600;
+    width: 25px;
+}
+.analytics-item-num{
     color: #25C24F;
     font-size: 48px;
     font-weight: 600;
+}
+
+/* project */
+.project-span{
+    font-weight: 800;
+}
+.project-list{
+    display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+}
+
+
+/* search */
+
+.news-container{
+    padding: 50px 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.news-title{
+    color: #000;
+    font-size: 48px;
+}
+.news-span-title{
+    color: #25C24F;
+    border: none;
+}
+.news-form{
+    border: 1px solid #000;
+    border-radius: 50px;
+    width: auto ;
+}
+.news-email{
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 5px;
+}
+.news-btn{
+    border: none;
+    background-color: #25C24F;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 15px 25px;
+    border-radius: 50px;
+}
+
+/* footer */
+
+.footer{
+}
+.footer-container{
+    padding: 25px 120px;
+    justify-content: space-between;
+    background-color: #3D3D3D;
+}
+.footer-container, .footer-list{
+    display: flex;
+}
+.footer-logo{
+    margin-bottom: 10px;
+}
+.footer-img{
+    width: 20px;
+    height: 20px;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    padding: 10px 10px;
+    justify-content: center;
+}
+.footer-list{
+    list-style: none;
+    gap: 25px;
+    align-items: center;
 }
