@@ -2,6 +2,15 @@
 body{
     font-family: "Ubuntu", sans-serif;
     background-color: #fff;
+    padding: 0px;
+    margin: 0px;
+    font-weight: 400;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
 }
 /* header */
 .header{
@@ -18,13 +27,11 @@ body{
     margin-bottom: 10px;
 }
 .header-list{
-    list-style: none;
     gap: 25px;
     align-items: center;
 }
 .header-item-link{
     color: #000;
-    text-decoration: none;
     font-size: 20px;
     font-weight: 600;
 }
@@ -67,13 +74,11 @@ body{
     position: absolute;
 }
 .info-list{
-    list-style: none;
     display: flex;
     flex-direction: column;
     line-height: 50px;
 }
 .info-link{
-    text-decoration: none;
     color: #000;
     font-size: 18px;
     font-weight: 600;
@@ -86,7 +91,7 @@ body{
     width: 900px;
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap   ;
+    flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
     background-color: #F2FBF5;

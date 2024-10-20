@@ -2,6 +2,15 @@
 body{
     font-family: "Ubuntu", sans-serif;
     background-color: #fff;
+    padding: 0px;
+    margin: 0px;
+    font-weight: 400;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
 }
 /* header */
 .header{
@@ -18,13 +27,11 @@ body{
     margin-bottom: 10px;
 }
 .header-list{
-    list-style: none;
     gap: 25px;
     align-items: center;
 }
 .header-item-link{
     color: #000;
-    text-decoration: none;
     font-size: 20px;
     font-weight: 600;
 }
@@ -64,7 +71,6 @@ body{
     font-weight: 600;
 }
 .organize-list{
-    list-style: none;
     display: flex;
     flex-direction: column;
     column-gap: 15px;
@@ -95,7 +101,6 @@ body{
     align-items: center;
 }
 .project-list{
-    list-style: none;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -128,7 +133,6 @@ body{
 .gallery-container{
     margin: 0 auto;
     padding: 50px 0px 50px 149px;
-    flex-wrap: wrap;
 }
 .gallery-title{
     color: #000;
@@ -192,7 +196,6 @@ body{
     justify-content: center;
 }
 .footer-list{
-    list-style: none;
     gap: 25px;
     align-items: center;
 }
