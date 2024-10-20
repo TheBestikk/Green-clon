@@ -108,6 +108,7 @@ a{
     margin-bottom: 25px;
 }
 .info-btn{
+    cursor: pointer;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -151,6 +152,7 @@ a{
     margin-left: 5px;
 }
 .news-btn{
+    cursor: pointer;
     border: none;
     background-color: #25C24F;
     color: #fff;
