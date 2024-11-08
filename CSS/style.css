@@ -12,34 +12,46 @@ ul{
 a{
     text-decoration: none;
 }
-/* header */
-.header{
-    padding: 0px 120px;
+.container{
+    width: 1660px;
+    margin: 0 auto;
 }
-.header-container{
+
+/* header */
+.header {
     padding: 25px 0px;
+}
+
+.header-container {
     justify-content: space-between;
     align-items: center;
 }
-.header-container, .header-list{
+
+.header-container,
+.header-list {
     display: flex;
 }
-.header-logo{
+
+.header-logo {
     margin-bottom: 10px;
 }
-.header-list{
+
+.header-list {
     gap: 25px;
     align-items: center;
 }
-.header-item-link{
+
+.header-item-link {
     color: #000;
     font-size: 20px;
     font-weight: 600;
 }
-.header-item-link:hover{
+
+.header-item-link:hover {
     border-bottom: 3px solid #1de953;
 }
-.header-item-span{
+
+.header-item-span {
     color: #25C24F;
     font-weight: 600;
 }
@@ -150,9 +162,10 @@ a{
 
 /* analytics */
 
-.analytics-container{
-    padding-bottom: 50px;
+.analytics{
     background-color: #F2FBF5;
+}
+.analytics-container{
     display: flex;
     align-items: center;
 }
@@ -161,12 +174,10 @@ a{
     gap: 250px;
     display: flex;
     align-items: center;
-    padding-top: 120px;
 }
 .analytics-item{
     display: flex;
     gap: 10px;
-    margin-bottom: 50px;
 }
 .analytics-item-text{
     color: #000;
@@ -183,25 +194,26 @@ a{
 
 /* project */
 
+.project{
+    padding: 50px 0px;
+}
 .project-container{
     margin: 0 auto;
-    padding: 50px 250px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    
 }
 .project-list{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 120px;
+    gap: 250px;
 }
 .project-item{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
 }
 .project-span{
     font-weight: 800;
@@ -220,8 +232,10 @@ a{
 
 /* search */
 
+.news{
+    padding: 50px 0px;
+}
 .news-container{
-    padding: 50px 120px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -260,11 +274,13 @@ a{
 
 /* footer */
 
+.footer{
+    padding: 25px 0px;
+    background-color: #3D3D3D;
+}
 .footer-container{
-    padding: 25px 120px;
     justify-content: space-between;
     align-items: center;
-    background-color: #3D3D3D;
 }
 .footer-container, .footer-list{
     display: flex;
