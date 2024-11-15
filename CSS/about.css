@@ -16,6 +16,14 @@ a{
     width: 1660px;
     margin: 0 auto;
 }
+h1,
+h2,
+h3,
+p,
+ul {
+    padding: 0px;
+    margin: 0px;
+}
 
 /* header */
 
@@ -24,16 +32,20 @@ a{
 }
 
 .header-container {
-    justify-content: space-between;
+    width: 1652px;
+    display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
-.header-container, .header-list {
+.header-container,
+.header-list {
     display: flex;
 }
 
 .header-list {
     gap: 25px;
+    display: flex;
     align-items: center;
 }
 
@@ -55,7 +67,6 @@ a{
 /* organize */
 
 .organize-container{
-    padding: 0px 120px;
     padding-bottom: 50px;
     gap: 25px;
     display: flex;
@@ -66,7 +77,7 @@ a{
 .organize-title{
     font-size: 52px;
     font-weight: 600;
-    color: #000;
+    margin-bottom: 25px;
 }
 .organize-span-title{
     color: #25C24F;
@@ -74,7 +85,7 @@ a{
 .organize-text{
     font-size: 28px;
     font-weight: 400;
-    color: #000;
+    margin-bottom: 20px;
 }
 .organize-span-text{
     font-weight: 600;
@@ -82,13 +93,11 @@ a{
 .organize-list{
     display: flex;
     flex-direction: column;
-    column-gap: 15px;
+    gap: 15px;
 }
 .organize-list-item-icon{
     width: 25px;
-    height: 25px;
     position: absolute;
-    margin-top: 15px;
 }
 .organize-list-item-text{
     font-size: 18px;
@@ -97,7 +106,6 @@ a{
 }
 .organize-img{
     width: 500px;
-    height: 600px;
 }
 
 /* project */
@@ -107,10 +115,8 @@ a{
 }
 
 .project-container {
-    margin: 0 auto;
     display: flex;
     justify-content: center;
-
 }
 
 .project-list {
@@ -118,13 +124,14 @@ a{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 250px;
+    gap: 45px;
 }
 
 .project-item {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 550px;
 }
 
 .project-span {
@@ -137,11 +144,11 @@ a{
     width: 400px;
     font-size: 20px;
     flex-wrap: wrap;
+    margin-top: 10px;
 }
 
 .project-img {
     width: 55px;
-    height: 55px;
 }
 
 /* gallery */
@@ -149,11 +156,16 @@ a{
 .gallery{
     padding: 50px 0px;
 }
+.gallery-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 .gallery-title{
-    color: #000;
     font-size: 49px;
     font-weight: 600;
-    margin-left: 175px;
+    margin-bottom: 29px;
+    text-align: left;
 }
 .gallery-title-span{
     color: #25C24F;
@@ -162,7 +174,6 @@ a{
     display: flex;
     justify-content: center;
     flex-direction: row;
-    margin-left: 175px;
 }
 .gallery-wrap{
     display: flex;
@@ -172,20 +183,16 @@ a{
 .gallery-list{
     list-style: none;
     width: 1000px;
-    height: 500px;
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
 }
 .gallery-photo-big{
-    margin-top: 18px;
-    width: 550px;
-    height: 559px;
-    
+    width: 600px;
+    margin-right: 25px;
 }
 .gallery-photo{
-    width: 350px;
-    height: 275px;
+    width: 400px;
 }
 
 /* footer */

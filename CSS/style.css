@@ -22,13 +22,16 @@ h1, h2, h3, p, ul{
 }
 
 /* header */
+
 .header {
     padding: 25px 0px;
 }
 
 .header-container {
-    justify-content: space-between;
+    width: 1570px;
+    display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .header-container,
@@ -38,6 +41,7 @@ h1, h2, h3, p, ul{
 
 .header-list {
     gap: 25px;
+    display: flex;
     align-items: center;
 }
 
@@ -69,7 +73,6 @@ h1, h2, h3, p, ul{
     line-height: 48px;
 }
 .help-title{
-    color: #000;
     font-weight: 600;
     font-size: 58px;
     width: 850px;
@@ -80,7 +83,6 @@ h1, h2, h3, p, ul{
     color: #25C24F;
 }
 .help-text{
-    color: #000;
     font-size: 28px;
     width: 550px;
     line-height: normal;
@@ -124,6 +126,7 @@ h1, h2, h3, p, ul{
 .planet-title{
     font-size: 52px;
     font-weight: 600;
+    width: 600px;
     margin-bottom: 25px;
 }
 .planet-span-title{
@@ -132,6 +135,7 @@ h1, h2, h3, p, ul{
 .planet-text{
     font-size: 28px;
     font-weight: 400;
+    width: 700px;
     margin-bottom: 20px;
 }
 .planet-span-text{
@@ -144,7 +148,6 @@ h1, h2, h3, p, ul{
 }
 .planet-list-item-icon{
     width: 25px;
-    height: 25px;
     position: absolute;
 }
 .planet-list-item-text{
@@ -153,7 +156,7 @@ h1, h2, h3, p, ul{
     margin-left: 30px;
 }
 .planet-img{
-    width: 500px;
+    width: 430px;
 }
 
 /* analytics */
@@ -170,11 +173,12 @@ h1, h2, h3, p, ul{
 .analytics-list{
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .analytics-item{
     display: flex;
     gap: 10px;
-    width: 400px;
+    width: 300px;
 }
 .analytics-item-text{
     display: flex;
@@ -195,29 +199,27 @@ h1, h2, h3, p, ul{
     padding: 50px 0px;
 }
 .project-container{
-    margin: 0 auto;
-    
+    display: flex;
+    justify-content: center;
 }
 .project-list{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 75px;
+    gap: 45px;
 }
 .project-item{
     display: flex;
     flex-direction: column;
     justify-content: center;
-
-    width: 750px;
+    width: 550px;
 }
 .project-span{
     font-weight: 800;
     font-size: 28px;
 }
 .project-text{
-    color: #000;
     width: 400px;
     font-size: 20px;
     flex-wrap: wrap;
@@ -225,7 +227,6 @@ h1, h2, h3, p, ul{
 }
 .project-img{
     width: 55px;
-    height: 55px;
 }
 
 /* search */
@@ -240,7 +241,7 @@ h1, h2, h3, p, ul{
     flex-direction: column;
 }
 .news-title{
-    margin-bottom: 25px;
+    margin-bottom: 49px;
     font-size: 48px;
 }
 .news-span-title{

@@ -12,6 +12,14 @@ ul{
 a{
     text-decoration: none;
 }
+h1,
+h2,
+h3,
+p,
+ul {
+    padding: 0px;
+    margin: 0px;
+}
 .container{
     width: 1660px;
     margin: 0 auto;
@@ -60,15 +68,15 @@ a{
     gap: 50px;
 }
 .info-title{
-    color:black;
     font-size: 48px;
     font-weight: 600;
+    margin-bottom: 25px;
 }
 .info-span-title{
     color: #25C24F;
 }
 .info-text{
-    color: #000;
+    margin-bottom: 25px;
     font-size: 24px;
 }
 .info-span-text{
@@ -141,6 +149,7 @@ a{
 .news-title {
     color: #000;
     font-size: 48px;
+    margin-bottom: 49px;
 }
 
 .news-span-title {
