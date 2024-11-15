@@ -32,10 +32,6 @@ a{
     display: flex;
 }
 
-.header-logo {
-    margin-bottom: 10px;
-}
-
 .header-list {
     gap: 25px;
     align-items: center;

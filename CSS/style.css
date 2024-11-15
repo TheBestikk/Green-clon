@@ -12,6 +12,10 @@ ul{
 a{
     text-decoration: none;
 }
+h1, h2, h3, p, ul{
+    padding: 0px;
+    margin: 0px;
+}
 .container{
     width: 1660px;
     margin: 0 auto;
@@ -30,10 +34,6 @@ a{
 .header-container,
 .header-list {
     display: flex;
-}
-
-.header-logo {
-    margin-bottom: 10px;
 }
 
 .header-list {
@@ -59,7 +59,6 @@ a{
 /* help */
 
 .help-img{
-    height: 700px;
     width: 700px;
 }
 .help-container{
@@ -67,7 +66,6 @@ a{
     align-items: center;
     justify-content: center;
     gap: 25px;
-    padding: 0px 120px;
     line-height: 48px;
 }
 .help-title{
@@ -76,6 +74,7 @@ a{
     font-size: 58px;
     width: 850px;
     line-height: 65px;
+    margin-bottom: 25px;
 }
 .help-span-title{
     color: #25C24F;
@@ -85,6 +84,7 @@ a{
     font-size: 28px;
     width: 550px;
     line-height: normal;
+    margin-bottom: 20px;
 }
 .help-span-text{
     color: #25C24F;
@@ -103,31 +103,28 @@ a{
 /* Video */
 
 .video-container{
-    padding: 50px 120px;
+    padding: 50px 0px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
 }
 .video-video{
-    width: 1500px;
-    height: 800px;
+    width: 1600px;
 }
 
 /* planet */
 
 .planet-container{
-    padding: 0px 120px;
     padding-bottom: 50px;
     gap: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 .planet-title{
     font-size: 52px;
     font-weight: 600;
-    color: #000;
+    margin-bottom: 25px;
 }
 .planet-span-title{
     color: #25C24F;
@@ -135,7 +132,7 @@ a{
 .planet-text{
     font-size: 28px;
     font-weight: 400;
-    color: #000;
+    margin-bottom: 20px;
 }
 .planet-span-text{
     font-weight: 600;
@@ -143,12 +140,12 @@ a{
 .planet-list{
     display: flex;
     flex-direction: column;
+    gap: 15px;
 }
 .planet-list-item-icon{
     width: 25px;
     height: 25px;
     position: absolute;
-    margin-top: 15px;
 }
 .planet-list-item-text{
     font-size: 18px;
@@ -157,31 +154,31 @@ a{
 }
 .planet-img{
     width: 500px;
-    height: 600px;
 }
 
 /* analytics */
 
 .analytics{
     background-color: #F2FBF5;
+    padding: 25px 0px;
 }
 .analytics-container{
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .analytics-list{
-    margin: 0 auto;
-    gap: 250px;
     display: flex;
     align-items: center;
 }
 .analytics-item{
     display: flex;
     gap: 10px;
+    width: 400px;
 }
 .analytics-item-text{
-    color: #000;
-    margin-top: 54px;
+    display: flex;
+    align-items: center;
     font-size: 18px;
     font-weight: 600;
     width: 25px;
@@ -199,8 +196,6 @@ a{
 }
 .project-container{
     margin: 0 auto;
-    display: flex;
-    justify-content: center;
     
 }
 .project-list{
@@ -208,12 +203,14 @@ a{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 250px;
+    gap: 75px;
 }
 .project-item{
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    width: 750px;
 }
 .project-span{
     font-weight: 800;
@@ -224,6 +221,7 @@ a{
     width: 400px;
     font-size: 20px;
     flex-wrap: wrap;
+    margin-top: 10px;
 }
 .project-img{
     width: 55px;
@@ -242,7 +240,7 @@ a{
     flex-direction: column;
 }
 .news-title{
-    color: #000;
+    margin-bottom: 25px;
     font-size: 48px;
 }
 .news-span-title{
